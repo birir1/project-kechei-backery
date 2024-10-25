@@ -41,9 +41,9 @@ class PagesController extends Controller
         return view('frontend.events');
     }
 
-    public function contact()
+    public function contactus()
     {
-        return view('frontend.contact');
+        return view('frontend.contactus');
     }
 
     public function blog()

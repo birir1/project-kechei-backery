@@ -14,7 +14,7 @@ Route::get('/recipes', [PagesController::class, 'recipes'])->name('recipes');
 Route::get('/events', [PagesController::class, 'events'])->name('events');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/blog', [PagesController::class, 'blog'])->name('blog');
-Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
+Route::get('/FAQ', [PagesController::class, 'faq'])->name('faq');
 Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PagesController::class, 'terms'])->name('terms');
 
