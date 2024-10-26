@@ -5,11 +5,11 @@
 
     @include("frontend.partials.navbar2")
 
-    @include("frontend.partials.officelunches")
+    {{-- @include("frontend.partials.bakingtipsandtricks") --}}
 
-    @include("frontend.partials.conferrencecatering")
+    @include("frontend.partials.FAQs")
 
-    @include("frontend.partials.custommenus")
+    {{-- @include("frontend.partials.newrecepies") --}}
 
     @include("frontend.partials.footer")
 @endsection

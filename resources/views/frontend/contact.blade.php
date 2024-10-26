@@ -5,11 +5,11 @@
 
     @include("frontend.partials.navbar2")
 
-    @include("frontend.partials.officelunches")
+    @include("frontend.partials.contactform")
 
-    @include("frontend.partials.conferrencecatering")
+    @include("frontend.partials.ourlocation")
 
-    @include("frontend.partials.custommenus")
+    @include("frontend.partials.customerservice")
 
     @include("frontend.partials.footer")
 @endsection

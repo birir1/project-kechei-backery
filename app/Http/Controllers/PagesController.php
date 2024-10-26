@@ -41,9 +41,9 @@ class PagesController extends Controller
         return view('frontend.events');
     }
 
-    public function contactus()
+    public function contact()
     {
-        return view('frontend.contactus');
+        return view('frontend.contact');
     }
 
     public function blog()
@@ -51,9 +51,9 @@ class PagesController extends Controller
         return view('frontend.blog');
     }
 
-    public function faq()
+    public function FAQs()
     {
-        return view('frontend.faq');
+        return view('frontend.FAQs');
     }
 
     public function privacy()
@@ -64,5 +64,50 @@ class PagesController extends Controller
     public function terms()
     {
         return view('frontend.terms');
+    }
+
+    public function menu()
+    {
+        return view('frontend.menu');
+    }
+
+    public function feedback()
+    {
+        return view('frontend.feedback');
+    }
+
+    public function ourhistory()
+    {
+        return view('frontend.ourhistory');
+    }
+
+    public function bakingtips()
+    {
+        return view('frontend.bakingtips');
+    }
+
+    public function breads()
+    {
+        return view('frontend.breads');
+    }
+
+    public function pastries()
+    {
+        return view('frontend.pastries');
+    }
+
+    public function specials()
+    {
+        return view('frontend.specials');
+    }
+
+    public function businessevents()
+    {
+        return view('frontend.businessevents');
+    }
+
+    public function collaborativecatering()
+    {
+        return view('frontend.collaborativecatering');
     }
 }

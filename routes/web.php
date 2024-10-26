@@ -18,6 +18,17 @@ Route::get('/FAQ', [PagesController::class, 'faq'])->name('faq');
 Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PagesController::class, 'terms'])->name('terms');
 
+Route::get('/menu', [PagesController::class, 'menu'])->name('menu');
+Route::get('/feedback', [PagesController::class, 'feedback'])->name('feedback');
+Route::get('/FAQs', [PagesController::class, 'FAQs'])->name('FAQs');
+Route::get('/ourhistory', [PagesController::class, 'ourhistory'])->name('ourhistory');
+Route::get('/bakingtips', [PagesController::class, 'bakingtips'])->name('bakingtips');
+Route::get('/breads', [PagesController::class, 'breads'])->name('breads');
+Route::get('/pastries', [PagesController::class, 'pastries'])->name('pastries');
+Route::get('/specials', [PagesController::class, 'specials'])->name('specials');
+Route::get('/businessevents', [PagesController::class, 'businessevents'])->name('businessevents');
+Route::get('/collaborativecatering', [PagesController::class, 'collaborativecatering'])->name('collaborativecatering');
+
 
 // Route::get('/', function () {
 //     return view('welcome');

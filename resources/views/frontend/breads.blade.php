@@ -5,11 +5,11 @@
 
     @include("frontend.partials.navbar2")
 
-    @include("frontend.partials.landingslider")
+    @include("frontend.partials.sourdoughvarieties")
 
-    @include("frontend.partials.artisanbread")
+    @include("frontend.partials.ryeloaves")
 
-    @include("frontend.partials.freshingredients")
+    @include("frontend.partials.glutenfree")
 
     @include("frontend.partials.footer")
 @endsection

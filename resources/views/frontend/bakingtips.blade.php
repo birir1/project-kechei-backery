@@ -5,11 +5,11 @@
 
     @include("frontend.partials.navbar2")
 
-    @include("frontend.partials.landingslider")
+    @include("frontend.partials.sourdoughsecrets")
 
-    @include("frontend.partials.artisanbread")
+    @include("frontend.partials.perfectpasteries")
 
-    @include("frontend.partials.freshingredients")
+    @include("frontend.partials.innovativetechniques")
 
     @include("frontend.partials.footer")
 @endsection
