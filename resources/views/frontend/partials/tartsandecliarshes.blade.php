@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Tart Option -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-                <img src="path/to/tart.jpg" alt="Fruit Tart" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/seasonal.jpg') }}" alt="Fruit Tart" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-2">Seasonal Fruit Tart</h3>
                     <p class="text-gray-500 mb-4">A buttery crust filled with velvety pastry cream and topped with a vibrant array of fresh seasonal fruits.</p>
@@ -16,7 +16,7 @@
 
             <!-- Éclair Option -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-                <img src="path/to/eclair.jpg" alt="Chocolate Éclair" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/chocolate.jpg') }}" alt="Chocolate Éclair" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-2">Chocolate Éclair</h3>
                     <p class="text-gray-500 mb-4">Light choux pastry filled with rich chocolate cream, topped with a glossy chocolate glaze.</p>
@@ -26,7 +26,7 @@
 
             <!-- Additional Tart Option -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-                <img src="path/to/cheesecake-tart.jpg" alt="Cheesecake Tart" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/cream.jpg') }}" alt="Cheesecake Tart" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-2">Creamy Cheesecake Tart</h3>
                     <p class="text-gray-500 mb-4">A rich and creamy cheesecake set on a crunchy biscuit base, garnished with a tangy berry compote.</p>

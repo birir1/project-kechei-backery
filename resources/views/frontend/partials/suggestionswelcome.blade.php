@@ -5,23 +5,30 @@
             We value your thoughts! Please share your suggestions to help us improve and bring you a better experience.
         </p>
         
-        <form>
+        @if(session('success'))
+            <div style="color: green; text-align: center; margin-bottom: 1rem;">
+                {{ session('success') }}
+            </div>
+        @endif
+        
+        <form action="{{ route('suggestions.store') }}" method="POST">
+            @csrf
             <!-- Name Field -->
             <div style="margin-bottom: 1rem;">
                 <label for="name" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Name</label>
-                <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
+                <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;" required>
             </div>
 
             <!-- Email Field -->
             <div style="margin-bottom: 1rem;">
                 <label for="email" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Email</label>
-                <input type="email" id="email" name="email" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
+                <input type="email" id="email" name="email" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;" required>
             </div>
 
             <!-- Suggestions Field -->
             <div style="margin-bottom: 1.5rem;">
                 <label for="suggestions" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Suggestions</label>
-                <textarea id="suggestions" name="suggestions" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;"></textarea>
+                <textarea id="suggestions" name="suggestions" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;" required></textarea>
             </div>
 
             <!-- Submit Button -->

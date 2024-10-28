@@ -1,9 +1,13 @@
-<!-- Navbar with Dropdown and Hover Effects -->
+<!-- Navbar with Logo on the Far Left and Dropdown Hover Effects -->
 <nav class="bg-[#143009] text-white p-4">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-        <!-- Brand -->
-        <div class="text-lg font-bold" style="font-family: 'Times New Roman', Times, serif; font-size: 14px;">
-            <a href="/" class="text-white">Kechei Centre Bakery</a>
+        
+        <!-- Logo on the Far Left -->
+        <div class="flex items-center">
+            <img src="{{ asset('favicon.ico') }}" alt="Kechei Centre Bakery Logo" style="max-width: 50px; height: auto; margin-right: 10px;">
+            <div class="text-lg font-bold" style="font-family: 'Times New Roman', Times, serif; font-size: 14px;">
+                <a href="/" class="text-white">Kechei Centre Bakery</a>
+            </div>
         </div>
         
         <!-- Nav Links -->
@@ -35,29 +39,9 @@
                     Contact
                 </a>
                 <div class="dropdown-menu bg-[#143009]" aria-labelledby="contactDropdown">
-                    <a href="/contact/feedback" class="dropdown-item text-white" style="font-family: 'Times New Roman', Times, serif; text-decoration: none;">Feedback</a>
+                    <a href="/contact" class="dropdown-item text-white" style="font-family: 'Times New Roman', Times, serif; text-decoration: none;">Reachout</a>
                 </div>
             </li>
         </ul>
     </div>
 </nav>
-
-<!-- CSS for Hover Effects -->
-<style>
-    /* Hover for main links */
-    .text-white:hover {
-        color: #bdd6f0;
-        text-decoration: underline;
-    }
-
-    /* Dropdown hover styles */
-    .dropdown-menu .dropdown-item:hover {
-        background-color: #666565;
-        color: #bdd6f0;
-    }
-
-    /* Make dropdown-menu appear on hover */
-    .nav-item.dropdown:hover .dropdown-menu {
-        display: block;
-    }
-</style>

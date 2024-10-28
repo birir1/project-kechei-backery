@@ -9,7 +9,7 @@
             <!-- Review Card 1 -->
             <div class="bg-[#f8f9fa] rounded-lg shadow-lg p-6 mb-6 md:mb-0 md:w-1/2">
                 <div class="flex items-center mb-4">
-                    <img src="path/to/image1.jpg" alt="Reviewer 1" class="w-16 h-16 rounded-full mr-4">
+                    <img src="{{ asset('imgs/cooking01.jpg') }}" alt="Reviewer 1" class="w-16 h-16 rounded-full mr-4">
                     <div>
                         <h3 class="text-xl font-semibold">Jane Doe</h3>
                         <p class="text-sm text-gray-500">Baking Enthusiast</p>
@@ -23,7 +23,7 @@
             <!-- Review Card 2 -->
             <div class="bg-[#f8f9fa] rounded-lg shadow-lg p-6 mb-6 md:mb-0 md:w-1/2">
                 <div class="flex items-center mb-4">
-                    <img src="path/to/image2.jpg" alt="Reviewer 2" class="w-16 h-16 rounded-full mr-4">
+                    <img src="{{ asset('imgs/cooking02.jpg') }}" alt="Reviewer 2" class="w-16 h-16 rounded-full mr-4">
                     <div>
                         <h3 class="text-xl font-semibold">John Smith</h3>
                         <p class="text-sm text-gray-500">Home Baker</p>
@@ -39,7 +39,7 @@
             <!-- Review Card 3 -->
             <div class="bg-[#f8f9fa] rounded-lg shadow-lg p-6 mb-6 md:mb-0 md:w-1/2">
                 <div class="flex items-center mb-4">
-                    <img src="path/to/image3.jpg" alt="Reviewer 3" class="w-16 h-16 rounded-full mr-4">
+                    <img src="{{ asset('imgs/cooking03.jpg') }}" alt="Reviewer 3" class="w-16 h-16 rounded-full mr-4">
                     <div>
                         <h3 class="text-xl font-semibold">Emily Johnson</h3>
                         <p class="text-sm text-gray-500">Pastry Lover</p>
@@ -53,7 +53,7 @@
             <!-- Review Card 4 -->
             <div class="bg-[#f8f9fa] rounded-lg shadow-lg p-6 mb-6 md:mb-0 md:w-1/2">
                 <div class="flex items-center mb-4">
-                    <img src="path/to/image4.jpg" alt="Reviewer 4" class="w-16 h-16 rounded-full mr-4">
+                    <img src="{{ asset('imgs/cooking04.jpg') }}" alt="Reviewer 4" class="w-16 h-16 rounded-full mr-4">
                     <div>
                         <h3 class="text-xl font-semibold">Michael Brown</h3>
                         <p class="text-sm text-gray-500">Food Blogger</p>

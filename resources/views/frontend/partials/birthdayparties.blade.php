@@ -15,12 +15,12 @@
                     <li class="mb-2">Animal Safari</li>
                 </ul>
                 <p class="text-gray-700 mb-4">Each theme is carefully crafted to create a magical atmosphere, with decorations, activities, and catering to match.</p>
-                <a href="/order/birthday-theme" class="inline-block bg-[#9c2a1f] text-white py-2 px-6 rounded hover:bg-[#8b2320] transition">Explore Themes</a>
+                {{-- <a href="/order/birthday-theme" class="inline-block bg-[#9c2a1f] text-white py-2 px-6 rounded hover:bg-[#8b2320] transition">Explore Themes</a> --}}
             </div>
 
             <!-- Right Column -->
             <div class="md:w-1/2 mb-8">
-                <img src="path/to/birthday-party.jpg" alt="Birthday Party Setup" class="rounded-lg shadow-lg">
+                <img src="{{ asset('imgs/birthdayparty.jpg') }}" alt="Birthday Party Setup" class="rounded-lg shadow-lg">
             </div>
         </div>
     </div>

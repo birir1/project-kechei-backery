@@ -2,18 +2,26 @@
     <div style="max-width: 1800px; margin: 0 auto; background-color: #ffffff; border-radius: 0.5rem; padding: 2rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h2 style="font-size: 1.8rem; font-weight: bold; color: #143009; text-align: center; margin-bottom: 1rem;">Rate Your Experience</h2>
         
-        <form>
+        <!-- Success Message -->
+        @if(session('success'))
+            <div style="background-color: #dff0d8; color: #3c763d; padding: 1rem; margin-bottom: 1rem; border: 1px solid #d6e9c6; border-radius: 0.25rem; text-align: center;">
+                {{ session('success') }}
+            </div>
+        @endif
+
+        <form action="{{ route('experience.rating.submit') }}" method="POST">
+            @csrf
             <!-- Name Field -->
             <div style="margin-bottom: 1rem;">
                 <label for="name" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Name</label>
-                <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
+                <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;" required>
             </div>
 
             <!-- Star Rating Section -->
             <div style="margin-bottom: 1rem; text-align: center;">
                 <label style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Rate Us</label>
                 <div style="font-size: 1.5rem; color: #143009;">
-                    <input type="radio" id="star5" name="rating" value="5" style="display: none;">
+                    <input type="radio" id="star5" name="rating" value="5" required style="display: none;">
                     <label for="star5" style="cursor: pointer;">&#9733;</label>
                     <input type="radio" id="star4" name="rating" value="4" style="display: none;">
                     <label for="star4" style="cursor: pointer;">&#9733;</label>

@@ -2,7 +2,13 @@
     <div style="max-width: 2000px; margin: 0 auto; background-color: #ffffff; border-radius: 0.5rem; padding: 2rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h2 style="font-size: 2rem; font-weight: bold; color: #143009; text-align: center; margin-bottom: 1.5rem;">Contact Us</h2>
         
-        {{-- <form action="{{ route('contact.submit') }}" method="POST"> --}}
+        @if(session('success'))
+            <div style="color: green; text-align: center; margin-bottom: 1rem;">
+                {{ session('success') }}
+            </div>
+        @endif
+
+        <form action="{{ route('contact.submit') }}" method="POST">
             @csrf
             <div style="margin-bottom: 1.5rem;">
                 <label for="name" style="font-weight: bold; color: #143009; display: block; margin-bottom: 0.5rem;">Name:</label>

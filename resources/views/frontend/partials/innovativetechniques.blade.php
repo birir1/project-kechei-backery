@@ -7,7 +7,7 @@
             </p>
         </div>
         <div class="md:w-1/2 p-4">
-            <img src="your-image-url.jpg" alt="Innovative Baking Techniques" class="w-full rounded-lg shadow-md">
-        </div>
+            <img src="{{ asset('imgs/cookies1.jpg') }}" alt="Innovative Baking Techniques" class="w-full rounded-lg shadow-md">
+        </div>        
     </div>
 </section>

@@ -5,6 +5,28 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PagesController;
 
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'create'])->name('contact.create');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.submit');
+
+
+use App\Http\Controllers\SuggestionController;
+
+Route::get('/suggestions', [SuggestionController::class, 'create'])->name('suggestions.create');
+Route::post('/suggestions', [SuggestionController::class, 'store'])->name('suggestions.store');
+
+
+use App\Http\Controllers\ExperienceRatingController;
+
+Route::post('/experience/rating', [ExperienceRatingController::class, 'submitRating'])->name('experience.rating.submit');
+
+
+use App\Http\Controllers\FeedbackController;
+
+Route::post('/feedback/submit', [FeedbackController::class, 'submit'])->name('feedback.submit');
+
+
 Route::get('/', [PagesController::class, 'index'])->name('index');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/products', [PagesController::class, 'products'])->name('products');
@@ -28,6 +50,7 @@ Route::get('/pastries', [PagesController::class, 'pastries'])->name('pastries');
 Route::get('/specials', [PagesController::class, 'specials'])->name('specials');
 Route::get('/businessevents', [PagesController::class, 'businessevents'])->name('businessevents');
 Route::get('/collaborativecatering', [PagesController::class, 'collaborativecatering'])->name('collaborativecatering');
+Route::get('/orderonline', [PagesController::class, 'orderonline'])->name('orderonline');
 
 
 // Route::get('/', function () {

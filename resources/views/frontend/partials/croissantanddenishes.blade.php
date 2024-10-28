@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <!-- Croissant Option -->
             <div class="bg-[#f9f9f9] rounded-lg shadow-md overflow-hidden">
-                <img src="path/to/croissant.jpg" alt="Croissant" class="w-full h-64 object-cover">
+                <img src="{{ asset('imgs/classic.jpg') }}" alt="Croissant" class="w-full h-64 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-3">Classic Butter Croissant</h3>
                     <p class="text-gray-600">Our signature croissant, flaky and buttery, made with premium French butter for an authentic taste.</p>
@@ -15,7 +15,7 @@
 
             <!-- Danish Option -->
             <div class="bg-[#f9f9f9] rounded-lg shadow-md overflow-hidden">
-                <img src="path/to/danish.jpg" alt="Danish" class="w-full h-64 object-cover">
+                <img src="{{ asset('imgs/cream.jpg') }}" alt="Danish" class="w-full h-64 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-3">Cream Cheese Danish</h3>
                     <p class="text-gray-600">A delightful pastry filled with rich cream cheese and topped with a light glaze, perfect for a sweet treat.</p>

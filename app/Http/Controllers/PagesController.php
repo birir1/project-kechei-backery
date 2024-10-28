@@ -21,10 +21,10 @@ class PagesController extends Controller
         return view('frontend.products');
     }
 
-    public function orderOnline()
-    {
-        return view('frontend.order');
-    }
+    // public function orderOnline()
+    // {
+    //     return view('frontend.order');
+    // }
 
     public function catering()
     {
@@ -109,5 +109,10 @@ class PagesController extends Controller
     public function collaborativecatering()
     {
         return view('frontend.collaborativecatering');
+    }
+
+    public function orderonline()
+    {
+        return view('frontend.orderonline');
     }
 }

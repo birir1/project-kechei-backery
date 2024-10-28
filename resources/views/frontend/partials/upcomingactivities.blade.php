@@ -2,8 +2,9 @@
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <!-- Image Section -->
         <div class="md:w-1/2 mb-6 md:mb-0">
-            <img src="path/to/upcoming-activities-image.jpg" alt="Upcoming Activities" class="rounded-lg shadow-lg w-full h-auto">
+            <img src="{{ asset('imgs/cookies2.jpg') }}" alt="Upcoming Activities" class="rounded-lg shadow-lg w-full h-auto">
         </div>
+        
 
         <!-- Text Section -->
         <div class="md:w-1/2 md:pl-8">

@@ -6,7 +6,7 @@
         <div class="flex flex-col lg:flex-row items-center justify-between">
             <!-- Left Column -->
             <div class="lg:w-1/2 mb-8 lg:mb-0">
-                <img src="path/to/anniversary-candlelight-dinner.jpg" alt="Candlelight Dinner" class="rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <img src="{{ asset('imgs/candlelightdinner.jpg') }}" alt="Candlelight Dinner" class="rounded-lg shadow-lg transition-transform transform hover:scale-105">
             </div>
 
             <!-- Right Column -->
@@ -20,7 +20,7 @@
                     <li class="mb-2">Exclusive wine selection</li>
                 </ul>
                 <p class="text-gray-600 mb-4">Celebrate in style with our dedicated team ensuring every detail is perfect.</p>
-                <a href="/order/anniversary" class="inline-block bg-[#9c2a1f] text-white py-2 px-4 rounded-lg hover:bg-[#8b2320] transition">Start Planning Your Celebration</a>
+                {{-- <a href="/order/anniversary" class="inline-block bg-[#9c2a1f] text-white py-2 px-4 rounded-lg hover:bg-[#8b2320] transition">Start Planning Your Celebration</a> --}}
             </div>
         </div>
     </div>

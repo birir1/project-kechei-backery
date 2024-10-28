@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <!-- Spring Pastry Item -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/spring-pastry1.jpg" alt="Spring Pastry 1" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/rose.jpg') }}" alt="Rose Petal Macarons" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Rose Petal Macarons</h3>
                     <p class="text-gray-500 mb-4">Delicate macarons infused with real rose petals for a floral delight.</p>
@@ -16,7 +16,7 @@
 
             <!-- Additional Spring Pastries -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/spring-pastry2.jpg" alt="Spring Pastry 2" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/lavender.jpg') }}" alt="Lemon Lavender Tart" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Lemon Lavender Tart</h3>
                     <p class="text-gray-500 mb-4">A zesty lemon tart with a hint of lavender for a refreshing taste.</p>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/spring-pastry3.jpg" alt="Spring Pastry 3" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/strawberries.jpg') }}" alt="Strawberry Shortcake" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Strawberry Shortcake</h3>
                     <p class="text-gray-500 mb-4">Light and fluffy cake layered with fresh strawberries and whipped cream.</p>

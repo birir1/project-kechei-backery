@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <!-- Autumn Pastry Item -->
             <div class="bg-[#ffe0b2] rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/autumn-pastry1.jpg" alt="Autumn Pastry 1" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/pumpkin.jpg') }}" alt="Pumpkin Spice Muffins" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Pumpkin Spice Muffins</h3>
                     <p class="text-gray-500 mb-4">Moist muffins infused with pumpkin and warm spices, topped with cream cheese frosting.</p>
@@ -15,7 +15,7 @@
             </div>
 
             <div class="bg-[#ffe0b2] rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/autumn-pastry2.jpg" alt="Autumn Pastry 2" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/cinnamon.jpg') }}" alt="Apple Cinnamon Galette" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Apple Cinnamon Galette</h3>
                     <p class="text-gray-500 mb-4">Rustic galette filled with spiced apples and baked to golden perfection.</p>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="bg-[#ffe0b2] rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/autumn-pastry3.jpg" alt="Autumn Pastry 3" class="w-full h-40 object-cover">
+                <img src="{{ asset('imgs/maple.jpg') }}" alt="Maple Pecan Pie" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Maple Pecan Pie</h3>
                     <p class="text-gray-500 mb-4">A classic pecan pie sweetened with rich maple syrup, perfect for fall.</p>

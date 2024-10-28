@@ -6,7 +6,7 @@
         <div class="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-6">
             <!-- Rye Loaf 1 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/rye-loaf1.jpg" alt="Traditional Rye" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/rye01.jpg') }}" alt="Traditional Rye" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Traditional Rye</h3>
                     <p class="text-gray-600">A classic rye bread with a rich flavor and dense texture, perfect for sandwiches or toasting.</p>
@@ -15,7 +15,7 @@
 
             <!-- Rye Loaf 2 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/rye-loaf2.jpg" alt="Caraway Rye" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/rye02.jpg') }}" alt="Caraway Rye" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Caraway Rye</h3>
                     <p class="text-gray-600">Infused with aromatic caraway seeds, this rye loaf adds a unique flavor profile to your meal.</p>
@@ -24,7 +24,7 @@
 
             <!-- Rye Loaf 3 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="path/to/rye-loaf3.jpg" alt="Dark Rye" class="w-full h-48 object-cover">
+                <img src="{{ asset('imgs/rye03.jpg') }}" alt="Dark Rye" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Dark Rye</h3>
                     <p class="text-gray-600">Made with whole grain rye flour, this loaf has a hearty taste and is excellent for pairing with rich spreads.</p>

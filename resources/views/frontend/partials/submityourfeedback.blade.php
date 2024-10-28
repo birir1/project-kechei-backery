@@ -2,20 +2,21 @@
     <div style="max-width: 1800px; margin: 0 auto; background-color: #ffffff; border-radius: 0.5rem; padding: 2rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h2 style="font-size: 1.8rem; font-weight: bold; color: #143009; text-align: center; margin-bottom: 1rem;">Submit Your Feedback</h2>
         
-        <form>
+        <form action="{{ route('feedback.submit') }}" method="POST">
+            @csrf
             <div style="margin-bottom: 1rem;">
                 <label for="name" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Name</label>
-                <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
             </div>
 
             <div style="margin-bottom: 1rem;">
                 <label for="email" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Email</label>
-                <input type="email" id="email" name="email" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;">
             </div>
 
             <div style="margin-bottom: 1rem;">
                 <label for="feedback" style="display: block; font-weight: bold; color: #666565; margin-bottom: 0.5rem;">Your Feedback</label>
-                <textarea id="feedback" name="feedback" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;"></textarea>
+                <textarea id="feedback" name="feedback" rows="4" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 0.25rem; font-size: 1rem;"></textarea>
             </div>
 
             <div style="text-align: center;">
@@ -24,5 +25,12 @@
                 </button>
             </div>
         </form>
+
+        <!-- Success Message -->
+        @if(session('success'))
+            <div style="background-color: #dff0d8; color: #3c763d; padding: 1rem; margin-bottom: 1rem; border: 1px solid #d6e9c6; border-radius: 0.25rem; text-align: center;">
+                {{ session('success') }}
+            </div>
+        @endif
     </div>
 </div>
