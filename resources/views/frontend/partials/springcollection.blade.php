@@ -10,7 +10,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Rose Petal Macarons</h3>
                     <p class="text-gray-500 mb-4">Delicate macarons infused with real rose petals for a floral delight.</p>
-                    <a href="/order/rose-macarons" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a>
+                    {{-- <a href="/order/rose-macarons" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -20,7 +20,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Lemon Lavender Tart</h3>
                     <p class="text-gray-500 mb-4">A zesty lemon tart with a hint of lavender for a refreshing taste.</p>
-                    <a href="/order/lemon-lavender-tart" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a>
+                    {{-- <a href="/order/lemon-lavender-tart" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -29,7 +29,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#e91e63] mb-2">Strawberry Shortcake</h3>
                     <p class="text-gray-500 mb-4">Light and fluffy cake layered with fresh strawberries and whipped cream.</p>
-                    <a href="/order/strawberry-shortcake" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a>
+                    {{-- <a href="/order/strawberry-shortcake" class="text-center block bg-[#00796b] text-white py-2 rounded hover:bg-[#004d40] transition">Order Now</a> --}}
                 </div>
             </div>
         </div>

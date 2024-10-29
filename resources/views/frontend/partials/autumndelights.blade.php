@@ -10,7 +10,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Pumpkin Spice Muffins</h3>
                     <p class="text-gray-500 mb-4">Moist muffins infused with pumpkin and warm spices, topped with cream cheese frosting.</p>
-                    <a href="/order/pumpkin-muffins" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a>
+                    {{-- <a href="/order/pumpkin-muffins" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -19,7 +19,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Apple Cinnamon Galette</h3>
                     <p class="text-gray-500 mb-4">Rustic galette filled with spiced apples and baked to golden perfection.</p>
-                    <a href="/order/apple-galette" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a>
+                    {{-- <a href="/order/apple-galette" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#8d6e63] mb-2">Maple Pecan Pie</h3>
                     <p class="text-gray-500 mb-4">A classic pecan pie sweetened with rich maple syrup, perfect for fall.</p>
-                    <a href="/order/maple-pecan-pie" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a>
+                    {{-- <a href="/order/maple-pecan-pie" class="block text-center bg-[#c2185b] text-white py-2 rounded hover:bg-[#9c27b0] transition">Order Now</a> --}}
                 </div>
             </div>
         </div>

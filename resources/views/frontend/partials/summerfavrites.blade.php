@@ -10,7 +10,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#ff5722] mb-2">Mango Mousse Cups</h3>
                     <p class="text-gray-500 mb-4">Creamy mango mousse served in crispy cups for a tropical taste.</p>
-                    <a href="/order/mango-mousse" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a>
+                    {{-- <a href="/order/mango-mousse" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -19,7 +19,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#ff5722] mb-2">Pineapple Upside-Down Cake</h3>
                     <p class="text-gray-500 mb-4">A classic cake topped with caramelized pineapples and cherries.</p>
-                    <a href="/order/pineapple-cake" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a>
+                    {{-- <a href="/order/pineapple-cake" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a> --}}
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
                 <div class="p-4">
                     <h3 class="text-2xl font-semibold text-[#ff5722] mb-2">Berry Pavlova</h3>
                     <p class="text-gray-500 mb-4">Crispy meringue topped with fresh berries and whipped cream.</p>
-                    <a href="/order/berry-pavlova" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a>
+                    {{-- <a href="/order/berry-pavlova" class="block text-center bg-[#ff9800] text-white py-2 rounded hover:bg-[#f57c00] transition">Order Now</a> --}}
                 </div>
             </div>
         </div>

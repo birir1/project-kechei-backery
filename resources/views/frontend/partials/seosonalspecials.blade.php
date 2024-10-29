@@ -14,7 +14,7 @@
 
             <!-- Image Section -->
             <div style="flex: 1;">
-                <img src="{{ asset('imgs/special1.jpg') }}" alt="Pumpkin Spice Bread" style="width: 100%; height: auto; border-radius: 0.5rem;">
+                <img src="{{ asset('imgs/pumspi.jpg') }}" alt="Pumpkin Spice Bread" style="width: 100%; height: auto; border-radius: 0.5rem;">
             </div>
         </div>
 
@@ -30,7 +30,7 @@
 
             <!-- Image Section -->
             <div style="flex: 1;">
-                <img src="{{ asset('imgs/special2.jpg') }}" alt="Gingerbread Cookies" style="width: 100%; height: auto; border-radius: 0.5rem;">
+                <img src="{{ asset('imgs/ginger.jpg') }}" alt="Gingerbread Cookies" style="width: 100%; height: auto; border-radius: 0.5rem;">
             </div>
         </div>
 
@@ -46,7 +46,7 @@
 
             <!-- Image Section -->
             <div style="flex: 1;">
-                <img src="{{ asset('imgs/special3.jpg') }}" alt="Chocolate Peppermint Cake" style="width: 100%; height: auto; border-radius: 0.5rem;">
+                <img src="{{ asset('imgs/pepermint.jpg') }}" alt="Chocolate Peppermint Cake" style="width: 100%; height: auto; border-radius: 0.5rem;">
             </div>
         </div>
     </div>
