@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/order', [OrderController::class, 'showOrderForm'])->name('order.form');
 Route::post('/order/submit', [OrderController::class, 'submit'])->name('order.submit');
 
+Route::get('/clear-cache', function() {
+    \Illuminate\Support\Facades\Artisan::call('config:cache');
+    return "Configuration cache cleared!";
+});
+
+
 // Test email route
 Route::get('/test-email', function () {
     Mail::raw('This is a test email.', function ($message) {

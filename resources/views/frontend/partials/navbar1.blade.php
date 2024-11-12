@@ -16,7 +16,7 @@
                 <a href="/events" class="text-white" style="font-family: 'Times New Roman', Times, serif; font-size: 14px; text-decoration: none;">Events</a>
             </li>
             <li>
-                <a href="/products" class="text-white" style="font-family: 'Times New Roman', Times, serif; font-size: 14px; text-decoration: none;">Products</a>
+                <a href="/products" class="text-white" style="font-family: 'Times New Roman', Times, serif; font-size: 14px; text-decoration: none;">Info</a>
             </li>
             <li>
                 <a href="/orderonline" class="text-white" style="font-family: 'Times New Roman', Times, serif; font-size: 14px; text-decoration: none;">Order Online</a>
